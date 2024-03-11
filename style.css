@@ -1,0 +1,29 @@
+body{
+    height: 1000px;
+    font-family: Roboto, Arial;
+}
+.main{
+    border: 2px solid black;
+    height: 800px;
+}
+.part1{    
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-bottom: 2px solid black;
+}
+.part1 div{    
+    height: 500px;    
+}
+
+/**/
+.part2{
+    /* border: 2px solid lightpink; */
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.part2 div{
+    width: 50%;
+    height: 300px;    
+}
